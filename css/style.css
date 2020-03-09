@@ -1,0 +1,140 @@
+/*navigation*/
+.nav-container{
+	position: relative;
+}
+.banner1{
+	max-height: 900px;
+}
+.nav-logo{
+	text-transform: uppercase;
+	position: absolute;
+	top: 5%;
+	left:2%;
+	color: #fff;
+	font-size: 20px;
+}
+
+.navigation{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	top: 5%;
+	left: 35%;
+}
+.nav-ul{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.nav-li{
+	margin-right: 30px;
+}
+.nav-li:last-child{
+	margin-right: 200px;
+}
+.nav-a{
+	text-decoration: none;
+}
+.button1{
+	top: 5%;
+	left: 85%;
+	position: absolute;
+	width: 150px;
+	height: 40px;
+	background-color: red;
+	border: none;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	cursor: pointer;
+	}
+	.nav-h{
+		text-transform: uppercase;
+		font-weight: bolder;
+		font-family: "Open Sans", Arial, sans-serif;
+		color: #fff;
+		font-size: 50px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform:translate(-50%,-50%);
+	}
+.nav-p{
+		/*text-transform: uppercase;*/
+		/*font-weight: bold;*/
+		color: #fff;
+		font-size: 20px;
+		font-family: "Open Sans", Arial, sans-serif;
+		line-height: 30px;
+		position: absolute;
+		top: 60%;
+		left: 50%;
+		transform:translate(-50%,-60%);
+		text-align:center;
+	}
+
+.button2{
+	top: 70%;
+	left: 50%;
+	position: absolute;
+	transform:translate(-50%,-70%);
+	width: 150px;
+	height: 40px;
+	background-color: transparent;
+	border-color: #fff, 1px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	cursor: pointer;
+	}	
+	/*section -menu*/
+
+.menu{
+	background-color: #ebedec;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px 50px;
+
+	}
+
+.title{
+	margin: 70px auto;
+	max-width: 300px;
+	margin-right: 20px;
+}
+.title:last-child{
+	margin-right: 0px;
+}
+.menu-logo{
+	height: 50px;
+	align-content: center;
+	text-align: center;
+	}
+.h3-menu{
+	color: red;
+	font-size: 30px;
+	margin-top: 30px;
+	font-family: "Open Sans", Arial, sans-serif;
+	text-align: center;
+
+}
+.menu-p{
+	font-size: 20px;
+	margin-top: 30px;
+	font-family: "Open Sans", Arial, sans-serif;
+}
