@@ -1,6 +1,9 @@
 /*navigation*/
 .nav-container{
 	position: relative;
+	/*display: flex;
+	justify-content: space-between;
+	align-items: center;*/
 }
 .banner1{
 	max-height: 900px;
@@ -46,7 +49,7 @@
 	position: absolute;
 	width: 150px;
 	height: 40px;
-	background-color: red;
+	background-color: #f00707;
 	border: none;
 	color: white;
 	text-transform: uppercase;
@@ -103,38 +106,274 @@
 	cursor: pointer;
 	}	
 	/*section -menu*/
+.menu-section{
+	background-color: #f5f2f2;
+	display: flex;
+	justify-content: space-between;
+	padding: 2%;
+}
 
-.menu{
-	background-color: #ebedec;
+.box1{
+	height:250px;
+	width: 300px;
+	position: relative;
+	margin-bottom: 5%;
+}
+.icon1{
+	height: 50px;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform:translate(-50%,-20%);
+}
+.box1-title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	color: #f00707;
+	font-size: 22px;
+	font-family: "Open Sans", Arial, sans-serif;
+
+}
+.box1-p{
+	width: 100%;
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform:translate(-50%,-80%);
+	flex-wrap: wrap;
+	color: #868e96;
+	font-size: 15px;
+	text-align: center;
+	font-family: "Open Sans", Arial, sans-serif;
+	margin-top: 5px;
+}
+/*spacial dishes*/
+.spacial-div{
+	padding: 4%;
+}
+.line{
+	background-color:#f00707;
+	width: 100px;
+	height: 2px;
+	margin-left: 43%;
+}
+
+.spacial-h2{
+     font-family: "Open Sans", Arial, sans-serif;
+     font-size: 50px;
+     font-weight: bolder;
+     text-transform: uppercase;
+     text-align: center;
+     margin-top: 3%;
+     margin-bottom: 3%;
+}
+.container-dishes{
+	display: flex;
+	justify-content: flex-end;
+}
+.dish1{
+	position: relative;
+}
+.dish-image{
+	width: 450px;
+}
+.button3{
+	top: 35%;
+	left: 50%;
+	position: absolute;
+	transform:translate(-50%,-35%);
+	width: 90px;
+	height: 90px;
+	background-color:#f00707;
+	border:none;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	cursor: pointer;
+	border-radius: 90px;
+	font-family: "Open Sans", Arial, sans-serif;
+	}
+.dish-p1{
+	top: 60%;
+	left: 50%;
+	position: absolute;
+	transform:translate(-50%,-60%);
+	color: #fff;
+	font-family: "Open Sans", Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: bold;
+	white-space: nowrap;
+	text-align: center;
+}	
+/*menu-div*/
+.menu-container{
 	display: flex;
 	justify-content: space-around;
-	padding: 20px 50px;
-
-	}
-
-.title{
-	margin: 70px auto;
-	max-width: 300px;
-	margin-right: 20px;
 }
-.title:last-child{
-	margin-right: 0px;
+.menu-box{
+	display: flex;
+	justify-content: space-around;
+	width: 600px;
 }
-.menu-logo{
-	height: 50px;
-	align-content: center;
-	text-align: center;
-	}
-.h3-menu{
-	color: red;
-	font-size: 30px;
-	margin-top: 30px;
+.menu-box1{
+	width: 300px;
+	position: relative;
+}
+.dish-image{
+	width: 300px;
+}
+.menu-h4{
+	position: absolute;
+	top: 10%;
+	left: 30%;
+	transform:translate(-30%,-10%);
+	color: #474646;
 	font-family: "Open Sans", Arial, sans-serif;
-	text-align: center;
+	font-size: 22px; 
 
 }
 .menu-p{
-	font-size: 20px;
-	margin-top: 30px;
+	position: absolute;
+	top: 60%;
+	left: 30%;
+	transform:translate(-30%,-60%);
+	color: #868e96;
 	font-family: "Open Sans", Arial, sans-serif;
 }
+.menu-price{
+	position: absolute;
+	top: 90%;
+	left: 15%;
+	transform:translate(-15%,-90%);
+	color: #f00707;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 22px; 
+}
+/*footer*/
+.footer-container{
+	width: 100%;
+	height: 150px;
+	background-color:#f00707;
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 50px;
+	position: relative;
+}
+.footer-container:last-child{
+	margin-right: 40px;
+}
+.soc-icons{
+	text-transform: uppercase;
+	position: absolute;
+	top: 30%;
+	left:2%;
+	color: #fff;
+	font-size: 20px;
+	font-family: "Open Sans", Arial, sans-serif;
+}
+.footer-ul1{
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-30%,-60%);
+	font-family: "Open Sans", Arial, sans-serif;
+	line-height: 30px;
+
+}
+.main-info{
+	color: #fff;
+}
+.soc{
+	display: flex;
+	margin-top: 20px;
+	color: #fff;
+
+}
+.fb{
+	margin-right: 20px;
+}
+.tw{
+	margin-right: 20px
+}
+
+/*Receipts*/
+.banner2{
+	max-height: 900px;
+	margin-bottom: 3%;
+}
+.form-container{
+	position: relative;
+	height: 250px;
+}
+.form-h4{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform:translate(-50%,-10%);
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 24px;
+
+}
+.form-p{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform:translate(-50%,-30%);
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 24px;
+	color: #868e96;
+	font-size: 18px;
+	text-align: center;
+}
+.form-wraper{
+	display: flex;
+	flex-direction: column;
+	margin-top:15px;
+
+}
+.form-group{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform:translate(-50%,-70%);
+	
+}
+.input-wraper{
+	margin-top: 15px;
+	margin-right: 10px;
+	padding: 10px;
+	background-color: black;
+	border-color:#868e96 
+	color: #868e96;
+	background-color: transparent;
+	width: 250px;
+	/*border-bottom: 2px solid red;*/
+}
+.submit{
+	position: absolute;
+	top: 70%;
+	left: 60%;
+	transform:translate(-60%,-70%);
+	text-transform: uppercase;
+	font-family: "Open Sans", Arial, sans-serif;
+
+}
+.btn {
+	background-color: #cf1d16;
+	color: #fff;
+	cursor: pointer;
+	border: none;
+	padding: 10px;
+	margin-top:15px;
+	width: 150px;
