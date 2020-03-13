@@ -16,7 +16,9 @@
 	color: #fff;
 	font-size: 20px;
 }
-
+.nav-logo: hover{
+	color: green;
+}
 .navigation{
 	display: flex;
 	justify-content: space-between;
@@ -24,6 +26,9 @@
 	position: absolute;
 	top: 5%;
 	left: 35%;
+}
+.navigation: hover{
+	color: black;
 }
 .nav-ul{
 	display: flex;
@@ -105,7 +110,12 @@
 	font-size: 14px;
 	cursor: pointer;
 	}	
+
+
+.button2: hover {
+	background-color: red;
 	/*section -menu*/
+}
 .menu-section{
 	background-color: #f5f2f2;
 	display: flex;
@@ -365,7 +375,6 @@
 	top: 70%;
 	left: 60%;
 	transform:translate(-60%,-70%);
-	text-transform: uppercase;
 	font-family: "Open Sans", Arial, sans-serif;
 
 }
@@ -377,3 +386,51 @@
 	padding: 10px;
 	margin-top:15px;
 	width: 150px;
+}
+	/*contact*/
+
+.contact-container{
+	max-width: 960px;
+	margin: 1% auto;
+	display: flex;
+	justify-content: space-between;
+}
+.form-wraper{
+	margin: 0 auto;
+}
+.line-contact{
+	display: flex;
+	justify-content: space-between;
+}
+.form-group2 {
+	font-family: "Open Sans", Arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+	margin-top:15px;
+}
+.input-wraper2{
+	font-family: "Open Sans", Arial, sans-serif;
+	margin-top: 10px;
+	padding: 10px;
+	border-color:#868e96;
+	color: #868e96;
+	background-color: transparent;
+	width: 200px;
+}
+.input-wraper3{
+	font-family: "Open Sans", Arial, sans-serif;
+	margin-top: 10px;
+	padding: 10px;
+	border-color:#868e96;
+	color: #868e96;
+	background-color: transparent;
+	width: 450px;
+	}
+.input-wraper:focus {
+	outline: none;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	margin-right: 15px;
+}
