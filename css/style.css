@@ -1,9 +1,7 @@
 /*navigation*/
 .nav-container{
 	position: relative;
-	/*display: flex;
-	justify-content: space-between;
-	align-items: center;*/
+	
 }
 .banner1{
 	max-height: 900px;
@@ -19,6 +17,10 @@
 .nav-logo: hover{
 	color: green;
 }
+.burger-icon {
+	display: none;
+	}
+
 .navigation{
 	display: flex;
 	justify-content: space-between;
@@ -47,6 +49,9 @@
 }
 .nav-a{
 	text-decoration: none;
+}
+.burger{
+	display: flex;
 }
 .button1{
 	top: 5%;
@@ -78,8 +83,6 @@
 		transform:translate(-50%,-50%);
 	}
 .nav-p{
-		/*text-transform: uppercase;*/
-		/*font-weight: bold;*/
 		color: #fff;
 		font-size: 20px;
 		font-family: "Open Sans", Arial, sans-serif;
@@ -231,41 +234,39 @@
 .menu-box{
 	display: flex;
 	justify-content: space-around;
-	width: 600px;
+	max-width: 600px;
+	width: 100%;
 }
 .menu-box1{
-	width: 300px;
-	position: relative;
+	max-width: 300px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
 }
 .dish-image{
-	width: 300px;
+	max-width: 300px;
+	width: 100%;
 }
 .menu-h4{
-	position: absolute;
-	top: 10%;
-	left: 30%;
-	transform:translate(-30%,-10%);
+
 	color: #474646;
 	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 22px; 
+	margin-top: 30px;
 
 }
 .menu-p{
-	position: absolute;
-	top: 60%;
-	left: 30%;
-	transform:translate(-30%,-60%);
+	
 	color: #868e96;
 	font-family: "Open Sans", Arial, sans-serif;
+	margin-top: 30px;
 }
 .menu-price{
-	position: absolute;
-	top: 90%;
-	left: 15%;
-	transform:translate(-15%,-90%);
+	
 	color: #f00707;
 	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 22px; 
+	margin-top: 30px;
 }
 /*footer*/
 .footer-container{
@@ -321,6 +322,7 @@
 .banner2{
 	max-height: 900px;
 	margin-bottom: 3%;
+	width: 100%;
 }
 .form-container{
 	position: relative;
@@ -367,8 +369,9 @@
 	border-color:#868e96 
 	color: #868e96;
 	background-color: transparent;
-	width: 250px;
-	/*border-bottom: 2px solid red;*/
+	max-width: 250px;
+	width: 100%;
+	
 }
 .submit{
 	position: absolute;
@@ -391,6 +394,7 @@
 
 .contact-container{
 	max-width: 960px;
+	width: 100%;
 	margin: 1% auto;
 	display: flex;
 	justify-content: space-between;
@@ -415,7 +419,8 @@
 	border-color:#868e96;
 	color: #868e96;
 	background-color: transparent;
-	width: 200px;
+	max-width: 200px;
+	width: 100%;
 }
 .input-wraper3{
 	font-family: "Open Sans", Arial, sans-serif;
@@ -424,7 +429,8 @@
 	border-color:#868e96;
 	color: #868e96;
 	background-color: transparent;
-	width: 450px;
+	max-width: 450px;
+	width: 100%;
 	}
 .input-wraper:focus {
 	outline: none;
@@ -434,3 +440,147 @@
 	justify-content: space-between;
 	margin-right: 15px;
 }
+
+
+
+
+/*რა დავამატე*/
+.banner1 {
+	width: 100%;
+}
+.box1-title {
+	white-space: nowrap;
+}
+
+
+
+
+
+
+@media (max-width: 948px) {
+	.menu-section{
+		flex-wrap: wrap;
+	}
+	.box1 {
+		width: 48%;
+	}
+	.menu-container {
+    flex-wrap: wrap;
+	}
+}
+@media (max-width: 648px) {
+	.container-dishes {
+		flex-wrap: wrap;
+	}
+}
+@media (max-width: 480px) {
+	.box1 {
+		width: 100%;
+	}
+	.menu-box {
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer-container {
+		flex-direction: column;
+	}
+	
+}
+@media (max-width: 1024px) {
+  .navigation {
+  	display: none;
+  }
+
+}
+@media (max-width: 1024px) {
+  .button1 {
+  	display: none;
+  }
+ 
+  @media (max-width: 1024px) {
+  .burger-icon {
+  	display: none;
+  }
+  .burger-icon {
+  	display: block;
+  	}
+   
+@media (max-width: 1024px) {
+.nav-p{
+		font-size:16px;
+		top: 60%;
+		left: 50%;
+		transform:translate(-50%,-60%);
+		text-align:center;
+
+	}
+    .nav-h{
+    	font-size:32px;
+    	top: 40%;
+		left: 50%;
+		transform:translate(-50%,-40%);
+	} 
+    
+  	@media (max-width: 948px) {
+	.nav-p{
+		font-size:14px;
+		top: 60%;
+		left: 50%;
+		transform:translate(-50%,-60%);
+		text-align:center;
+	}
+    .nav-h{
+    	font-size:28px; 
+    }
+    .button2{
+    	top: 75%;
+		left: 50%;
+		transform:translate(-50%,-75%);
+		text-align:center;
+
+    }
+    @media (max-width: 648px) {
+       .nav-p{
+		font-size:12px;
+		flex-wrap: wrap;
+	}
+	.nav-h{
+    	font-size:18px;
+    	top: 40%;
+		left: 50%;
+		transform:translate(-50%,-40%);
+	}
+	.button2{
+    	top: 85%;
+		left: 50%;
+		transform:translate(-50%,-85%);
+		text-align:center;
+	}
+@media (max-width: 480px) {
+	.nav-p{
+		font-size:10px;
+		flex-wrap: wrap;
+	}
+	.nav-h{
+    	font-size:14px;
+    	top: 40%;
+		left: 50%;
+		transform:translate(-50%,-40%);
+	}
+	.button2{
+    	top: 90%;
+		left: 50%;
+		transform:translate(-50%,-90%);
+		text-align:center;
+
+	}
+
+    @media (max-width: 648px) {
+	.container-dishes {
+		flex-wrap: wrap;
+	}
+@media (max-width: 480px) {
+	.box1 {
+		width: 100%;
+	}
+  
